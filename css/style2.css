@@ -21,13 +21,27 @@
 .boxbg {
     width: 380px;
     height: 200px;
-    margin-top: 540px;
+    margin-top: 10px;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter:blur(10px);
     backdrop-filter: blur(10px); 
     border: 1px solid rgb(203, 203, 203);   
 }
+
+@media(max-width: 1050px) {
+    .boxbg {
+        width: 340px;
+        height: 180px;
+        margin-top: 20px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter:blur(10px);
+        backdrop-filter: blur(10px); 
+        border: 1px solid rgb(203, 203, 203);   
+    }
+    }
+    
 
 .boxbg:hover {
     outline-style: solid;
@@ -99,7 +113,12 @@
     margin-top: 20px;
 }
 
-
+@media(max-width: 1050px) {
+    .button {
+        margin-left: 240px;
+        margin-top: 20px;
+    }
+}
 
 .container-footer {
     display: flex;
@@ -107,8 +126,7 @@
     flex-wrap: wrap;
     justify-content: left;
     gap: 5px;
-    background-color: #000;
-    margin-top: 230px;
+    margin-top: 100px;
 
   & p {
     display: flex;
@@ -157,8 +175,7 @@
     flex-wrap: wrap;
     justify-content: left;
     gap: 5px;
-    background-color: #000;
-    margin-top: 230px;
+    margin-top: 100px;
 
     & p {
         display: flex;

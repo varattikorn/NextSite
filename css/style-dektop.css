@@ -39,26 +39,27 @@
   /*----------------------------------------*/
 
   body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../img/abstract-modern-background-with-soft-gradient-colors-ai-generated-free-photo.jpg");
     background-color: rgb(0, 0, 0);
-    background-image: url(/image/logo.b.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    height: 1000px;
     margin: 0;
     padding: 0;
   }
 
+  @media(max-width: 1050px) {
+  body {
+    background: url("../img/abstract-modern-background-with-soft-gradient-colors-ai-generated-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+  }
+}
+
 /*----------------------------------------*/
-  .Main-Head {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("../img/StockCake-Serene\ Green\ Hills_1742967427.jpg") no-repeat center center/cover;
-    /*border-radius: 0px 0px 30px 30px;*/
-    height: 1000px;
+  .containerHead {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,26 +126,6 @@ a {
   text-decoration: none;
 }
 
-.box-head {
-  margin-top: 15px;
-  width: 80px;
-  height: 22px;
-  background-color: #000;
-  border-radius: 50px;
-  text-align: center;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  
-}
-@media(min-width: 1000px) {
-  .box-head {
-    font-size: 12px;
-    font-weight: 500;
-    width: 100px;
-    height: 35px;
-  }
-}
 
 
 
@@ -917,23 +898,33 @@ nav a:hover {
   color: #ffffff;
 }
 
+
+
+
+.box-head {
+  margin-top: 5px;
+  width: 85px;
+  height: 35px;
+  background-color: #000;
+  border-radius: 50px;
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+@media(min-width: 1050px) {
+  .box-head {
+    font-size: 12px;
+    font-weight: 500;
+    width: 100px;
+    height: 35px;
+  }
+}
 .box-head:hover {
   background-image: linear-gradient(to right, rgb(98, 0, 255) , rgb(17, 0, 255));
   color: #ffffff;
 }
 
 /*-----------------com-----------------------*/
-@media(max-width: 1050px) {
-  .hideOnMoblie {
-    display: none;
-  }
-  .menu-button {
-    display: block;
-  }
-  nav {
-    height: 40px;
-    width: 100%;
-  }
-}
 
 /*----------------------------------------*/
