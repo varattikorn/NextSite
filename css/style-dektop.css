@@ -70,14 +70,14 @@
 
   .image-me {
       margin-bottom: 30px;
-      width:180px;
+      width:400px;
       margin-top: 70px;
       -webkit-mask-image: linear-gradient(black 85%,transparent 100%);
       mask-image: linear-gradient(black 85%,transparent 100%);
   }
-  @media(min-width: 1000px) {
+  @media(max-width: 1050px) {
     .image-me {
-      width: 400px;
+      display: none;
     }
   }
 
@@ -87,16 +87,16 @@
       margin-top: 120px;
       margin-bottom: 0;
       font-family: Inter;
-      font-size: 22px;
+      font-size: 80px;
       font-weight: 600;
       background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
       color: transparent;
       background-clip: text;
     }
 
-    @media(min-width: 1000px) {
+    @media(max-width: 1050px) {
       .font-head {
-        font-size: 80px;
+        font-size: 40px;
       }
     }
   
@@ -105,16 +105,16 @@
   margin-top: 15px;
   margin-bottom: 0;
   font-family: Inter;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 255, 255));
   color: transparent;
   background-clip: text;
 }
 
-@media(min-width: 1000px) {
+@media(max-width: 1050px) {
   .font-head2 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
