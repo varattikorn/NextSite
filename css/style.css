@@ -56,7 +56,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("/img/StockCake-Serene\ Green\ Hills_1742967427.jpg") no-repeat center center/cover;
+    background: url("img/StockCake-Serene\ Green\ Hills_1742967427.jpg") no-repeat center center/cover;
     /*border-radius: 0px 0px 30px 30px;*/
     height: 1000px;
     display: flex;
