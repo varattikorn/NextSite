@@ -17,8 +17,17 @@
 
 .subtext {
     margin-top: 1px;
+    margin-bottom: 0px;
     font-family: Kanit;
     color: white;
     font-weight: 500;
     font-size: 4.5vw;
+}
+
+.text1 {
+    font-family: Kanit;
+    color: white;
+    font-weight: 500;
+    font-size: 5vw;
+    text-align: center;
 }
