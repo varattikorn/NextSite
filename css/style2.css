@@ -167,6 +167,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0;
+    background-color: black;
 }
 
 .container-footerA {
