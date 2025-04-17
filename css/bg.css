@@ -1,0 +1,64 @@
+.bodynext {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../img/รูปพื้นหลังฉากหลังเทคโนโลยีสีแดงเข้มที่เปล่งประกายพร้อมพื้นผิวโลหะขัดเงาที่มีพื้นผิว\ พื้นหลัง\,\ พื้นผิวโครเมี่ยม\,\ สแตนเลส\,\ เหล็กภาพพื้นหลังสำหรับการดาวน์โหลดฟรี\ -\ Pngtree.jfif");
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*----------------------------------------*/
+.wrapper {
+    max-height: 220px;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 25px;
+  }
+  
+  .wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .item {
+    min-width: 175px;
+    height: 50px;
+    line-height: 0px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right: 8px;
+    border-radius: 40px;
+  }
+  
+  .imagescroll {
+    width: 180px;
+    border-radius: 15px;
+  }
+  
+
+  .containerWrap {
+        width: 100%;
+        margin: auto;
+        height: 80px;
+    
+    }
+    @media only screen and (min-width: 576px) {
+        .container2 {
+            width: 540px;
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        .container2 {
+            width: 1140px;
+        }
+        .wrapper {
+            margin-left: 24%;
+        }
+    }
