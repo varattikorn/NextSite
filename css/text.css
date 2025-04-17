@@ -28,6 +28,14 @@
     font-family: Kanit;
     color: white;
     font-weight: 500;
-    font-size: 4vw;
+    font-size: 110%;
     text-align: center;
+}
+
+.textHeadabout {
+    font-family: Kanit;
+    color: white;
+    font-weight: 500;
+    font-size: 200%;
+    text-align: left;
 }
